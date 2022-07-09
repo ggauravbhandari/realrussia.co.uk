@@ -1,0 +1,16 @@
+.elementor-editor-active #asea-doc-search-container, .elementor-editor-preview #asea-doc-search-container {
+  opacity: 1 !important; }
+  .elementor-editor-active #asea-doc-search-container.asea-loading #asea-section-1, .elementor-editor-preview #asea-doc-search-container.asea-loading #asea-section-1 {
+    opacity: 1 !important; }
+  .elementor-editor-active #asea-doc-search-container.asea-loading:after, .elementor-editor-preview #asea-doc-search-container.asea-loading:after {
+    display: none; }
+  .elementor-editor-active #asea-doc-search-container .asea-search-box, .elementor-editor-preview #asea-doc-search-container .asea-search-box {
+    position: relative; }
+    .elementor-editor-active #asea-doc-search-container .asea-search-box:after, .elementor-editor-preview #asea-doc-search-container .asea-search-box:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0; }

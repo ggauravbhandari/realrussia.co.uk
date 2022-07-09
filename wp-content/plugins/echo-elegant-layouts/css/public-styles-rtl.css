@@ -1,0 +1,405 @@
+[dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset h1, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset h2, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset h3, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset h4, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset h5, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset h6, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset p, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset a, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset div, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset span, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset strong, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset b, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset i, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset ol, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset ul, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset li, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset section, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset nav, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset menu, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset header, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset form, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset input, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset button, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset img, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset legend, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset label, [dir=rtl] #elay-grid-layout-page-container.elay-css-full-reset fieldset {
+  text-align: right; }
+[dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container h1, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container h2, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container h3, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container h4, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container h5, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container h6, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container p, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container a, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container div, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container span, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container strong, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container b, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container i, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container ol, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container ul, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container li, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container section, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container nav, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container menu, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container header, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container form, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container input, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container button, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container img, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container legend, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container label, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-doc-search-container fieldset {
+  text-align: right; }
+[dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar h1, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar h2, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar h3, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar h4, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar h5, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar h6, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar p, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar a, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar div, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar span, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar strong, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar b, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar i, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar ol, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar ul, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar li, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar section, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar nav, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar menu, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar header, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar form, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar input, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar button, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar img, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar legend, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar label, [dir=rtl] #elay-sidebar-layout-page-container.elay-css-full-reset .elay-sidebar fieldset {
+  text-align: right; }
+[dir=rtl] #eckb-article-page-container .eckb-navigation-back h1, [dir=rtl] #eckb-article-page-container .eckb-navigation-back h2, [dir=rtl] #eckb-article-page-container .eckb-navigation-back h3, [dir=rtl] #eckb-article-page-container .eckb-navigation-back h4, [dir=rtl] #eckb-article-page-container .eckb-navigation-back h5, [dir=rtl] #eckb-article-page-container .eckb-navigation-back h6, [dir=rtl] #eckb-article-page-container .eckb-navigation-back p, [dir=rtl] #eckb-article-page-container .eckb-navigation-back a, [dir=rtl] #eckb-article-page-container .eckb-navigation-back div, [dir=rtl] #eckb-article-page-container .eckb-navigation-back span, [dir=rtl] #eckb-article-page-container .eckb-navigation-back strong, [dir=rtl] #eckb-article-page-container .eckb-navigation-back b, [dir=rtl] #eckb-article-page-container .eckb-navigation-back i, [dir=rtl] #eckb-article-page-container .eckb-navigation-back ol, [dir=rtl] #eckb-article-page-container .eckb-navigation-back ul, [dir=rtl] #eckb-article-page-container .eckb-navigation-back li, [dir=rtl] #eckb-article-page-container .eckb-navigation-back section, [dir=rtl] #eckb-article-page-container .eckb-navigation-back nav, [dir=rtl] #eckb-article-page-container .eckb-navigation-back menu, [dir=rtl] #eckb-article-page-container .eckb-navigation-back header, [dir=rtl] #eckb-article-page-container .eckb-navigation-back form, [dir=rtl] #eckb-article-page-container .eckb-navigation-back input, [dir=rtl] #eckb-article-page-container .eckb-navigation-back button, [dir=rtl] #eckb-article-page-container .eckb-navigation-back img,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb h1,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb h2,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb h3,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb h4,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb h5,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb h6,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb p,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb a,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb div,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb span,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb strong,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb b,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb i,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb ol,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb ul,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb li,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb section,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb nav,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb menu,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb header,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb form,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb input,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb button,
+[dir=rtl] #eckb-article-page-container .eckb-breadcrumb img,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container h1,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container h2,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container h3,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container h4,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container h5,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container h6,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container p,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container a,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container div,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container span,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container strong,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container b,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container i,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container ol,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container ul,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container li,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container section,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container nav,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container menu,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container header,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container form,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container input,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container button,
+[dir=rtl] #eckb-article-page-container .eckb-tag-container img {
+  text-align: right; }
+[dir=rtl] #elay-sidebar-container-v2 .elay-sidebar__cat-container .elay-sidebar__cat__top-cat .elay-sidebar__cat__top-cat__heading-container {
+  padding-right: 8px; }
+[dir=rtl] #elay-sidebar-container-v2 .elay-sidebar__cat-container .elay-sidebar__cat__top-cat .elay-sidebar__cat__top-cat__body-container .elay-sidebar__body__sub-cat {
+  padding-left: 0px;
+  padding-right: 10px; }
+[dir=rtl] #elay-sidebar-container-v2 .elay-sidebar__cat-container li .active {
+  margin-left: auto !important;
+  margin-right: -5px !important; }
+[dir=rtl] #elay-sidebar-container-v2 .elay-article-title .elay-article-title__icon {
+  position: absolute;
+  top: 2px;
+  right: 0; }
+[dir=rtl] #elay-sidebar-container-v2 .elay-article-title .elay-article-title__text {
+  margin-right: 1.5em;
+  margin-left: auto; }
+[dir=rtl] #elay-sidebar-container-v2 .elay-article-title {
+  position: relative;
+  font-size: 1em;
+  display: block;
+  font-family: inherit;
+  font-weight: inherit; }
+  [dir=rtl] #elay-sidebar-container-v2 .elay-article-title .eckb-article-title__icon {
+    position: absolute;
+    top: 2px;
+    right: 0; }
+  [dir=rtl] #elay-sidebar-container-v2 .elay-article-title .eckb-article-title__text {
+    margin-right: 1.5em;
+    display: block;
+    line-height: 1.3em;
+    font-family: inherit;
+    font-weight: inherit; }
+[dir=rtl] .elay-sidebar--reset h1, [dir=rtl] .elay-sidebar--reset h2, [dir=rtl] .elay-sidebar--reset h3, [dir=rtl] .elay-sidebar--reset h4, [dir=rtl] .elay-sidebar--reset h5, [dir=rtl] .elay-sidebar--reset h6, [dir=rtl] .elay-sidebar--reset p, [dir=rtl] .elay-sidebar--reset a, [dir=rtl] .elay-sidebar--reset div, [dir=rtl] .elay-sidebar--reset span, [dir=rtl] .elay-sidebar--reset strong, [dir=rtl] .elay-sidebar--reset b, [dir=rtl] .elay-sidebar--reset i, [dir=rtl] .elay-sidebar--reset ol, [dir=rtl] .elay-sidebar--reset ul, [dir=rtl] .elay-sidebar--reset li, [dir=rtl] .elay-sidebar--reset section, [dir=rtl] .elay-sidebar--reset nav, [dir=rtl] .elay-sidebar--reset menu, [dir=rtl] .elay-sidebar--reset header, [dir=rtl] .elay-sidebar--reset form, [dir=rtl] .elay-sidebar--reset input, [dir=rtl] .elay-sidebar--reset button, [dir=rtl] .elay-sidebar--reset img, [dir=rtl] .elay-sidebar--reset legend, [dir=rtl] .elay-sidebar--reset label, [dir=rtl] .elay-sidebar--reset fieldset {
+  text-align: right; }
+[dir=rtl] #elay-grid-layout-page-container.elay-grid-template {
+    /* .elay-icon-top {
+
+	   &.elay-icon-elem--image {
+		   text-align: inherit;
+
+		   img {
+		   }
+	   }
+	 }
+	 .elay-icon-right {
+	   position:absolute;
+	   top:0;
+	   right:0;
+
+
+	 }
+	 .elay-icon-bottom {
+
+	 }
+	 .elay-icon-left {
+	   position:absolute;
+	   top:0;
+	   left:0;
+
+	 }
+   */ }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container #elay_search_results {
+    text-align: right; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container #elay_search_results ul li a .elay-article-title i {
+      left: auto;
+      right: 0; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container #elay_search_results ul li a .elay-article-title .ep_font_icon_document {
+      left: auto;
+      right: 0; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container #elay_search_results ul li span {
+      margin-left: auto;
+      margin-right: 24px; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search .elay-search-box input[type=text]::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */ }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search .elay-search-box input[type=text]::-moz-placeholder {
+    /* Firefox 19+ */ }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search .elay-search-box input[type=text]:-ms-input-placeholder {
+    /* IE 10+ */ }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search .elay-search-box input[type=text]:-moz-placeholder {
+    /* Firefox 18- */ }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-1 input[type=text] {
+    border-radius: 0 5px 5px 0 !important;
+    border-left-width: 0 !important; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-1 button {
+    border-radius: 5px 0 0 5px;
+    right: auto;
+    left: -1px;
+    margin-right: -1px;
+    margin-left: auto; }
+    @media only screen and (min-width: 768px) {
+      [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-1 button {
+        border-right: none !important; } }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-1 .loading-spinner {
+    left: auto;
+    right: 7px; }
+    @media only screen and (max-width: 768px) {
+      [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-1 .loading-spinner {
+        right: initial;
+        left: 57px !important; } }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-2 .loading-spinner {
+    left: auto;
+    right: 7px; }
+    @media only screen and (max-width: 768px) {
+      [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-2 .loading-spinner {
+        right: auto;
+        left: 69px; } }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-3 button {
+    display: none !important; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-3 .loading-spinner {
+    left: auto;
+    right: 7px; }
+    @media only screen and (max-width: 768px) {
+      [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-3 .loading-spinner {
+        left: 69px;
+        right: auto; } }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-4 button {
+    right: auto;
+    left: -1px; }
+    @media only screen and (min-width: 768px) {
+      [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-4 button {
+        border-right: none !important; } }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-4 .loading-spinner {
+    left: auto;
+    right: 7px; }
+    @media only screen and (max-width: 768px) {
+      [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-doc-search-container .elay-search-form-4 .loading-spinner {
+        left: 69px;
+        right: auto; } }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .epkb-doc-search-container .epkb-doc-search-container__title {
+    text-align: center; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .epkb-doc-search-container .epkb-search-form-1 button {
+    border-radius: 5px 0 0 5px;
+    left: -1px;
+    right: auto; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .epkb-doc-search-container .epkb-search .epkb-search-box input[type=text] {
+    margin-left: -3px;
+    margin-right: 0; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template #elay-content-container .elay-section-container section .section-head {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: relative; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template #elay-content-container .elay-section-container section .elay-section-body {
+    float: right; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-text-center {
+    text-align: center;
+    justify-content: center; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-text-center p {
+      text-align: center; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-text-center .elay-icon-elem {
+      text-align: inherit; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-text-center .elay-grid-category-name {
+      text-align: center; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-text-left {
+    text-align: start;
+    justify-content: flex-start; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-text-right {
+    text-align: right;
+    justify-content: flex-end; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-text-right .elay-icon-elem {
+      text-align: inherit; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-text-right p {
+      text-align: inherit; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--left {
+    text-align: left;
+    justify-content: flex-start; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--left p {
+      text-align: inherit; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--left .elay-icon-elem {
+      text-align: inherit; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--left .elay-grid-category-name {
+      text-align: inherit; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--center {
+    text-align: center;
+    justify-content: center; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--center .elay-grid-category-title-icon-container {
+      justify-content: center;
+      text-align: center; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--center p {
+      text-align: inherit; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--center .elay-icon-elem {
+      text-align: inherit; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--center .elay-grid-category-name {
+      text-align: inherit; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--right {
+    text-align: right;
+    justify-content: flex-end; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--right .elay-grid-category-title-icon-container {
+      justify-content: flex-end;
+      text-align: right; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--right p {
+      text-align: inherit; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--right .elay-icon-elem {
+      text-align: inherit; }
+    [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-align--right .elay-grid-category-name {
+      text-align: inherit; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-icon-loc--top .elay-grid-category-title-icon-container {
+    flex-direction: column; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-icon-loc--left .elay-grid-category-title-icon-container {
+    align-items: center; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-icon-loc--right .elay-grid-category-title-icon-container {
+    align-items: center; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-icon-loc--right .elay-icon-elem {
+    text-align: inherit;
+    order: 2; }
+  [dir=rtl] #elay-grid-layout-page-container.elay-grid-template .elay-section-head-icon-loc--right .elay-grid-category-name {
+    text-align: inherit;
+    order: 1; }
+[dir=rtl] .elay-doc-search-container #elay_search_results {
+  text-align: right; }
+  [dir=rtl] .elay-doc-search-container #elay_search_results ul li a .elay-article-title i {
+    left: auto;
+    right: 0; }
+  [dir=rtl] .elay-doc-search-container #elay_search_results ul li a .elay-article-title .ep_font_icon_document {
+    left: auto;
+    right: 0; }
+  [dir=rtl] .elay-doc-search-container #elay_search_results ul li span {
+    margin-left: auto;
+    margin-right: 24px; }
+[dir=rtl] .elay-doc-search-container .elay-search .elay-search-box input[type=text]::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */ }
+[dir=rtl] .elay-doc-search-container .elay-search .elay-search-box input[type=text]::-moz-placeholder {
+  /* Firefox 19+ */ }
+[dir=rtl] .elay-doc-search-container .elay-search .elay-search-box input[type=text]:-ms-input-placeholder {
+  /* IE 10+ */ }
+[dir=rtl] .elay-doc-search-container .elay-search .elay-search-box input[type=text]:-moz-placeholder {
+  /* Firefox 18- */ }
+[dir=rtl] .elay-doc-search-container .elay-search-form-1 input[type=text] {
+  border-radius: 0 5px 5px 0 !important;
+  border-left-width: 0 !important; }
+[dir=rtl] .elay-doc-search-container .elay-search-form-1 button {
+  border-radius: 5px 0 0 5px;
+  right: auto;
+  left: -1px;
+  margin-right: -1px;
+  margin-left: auto; }
+  @media only screen and (min-width: 768px) {
+    [dir=rtl] .elay-doc-search-container .elay-search-form-1 button {
+      border-right: none !important; } }
+[dir=rtl] .elay-doc-search-container .elay-search-form-1 .loading-spinner {
+  left: auto;
+  right: 7px; }
+  @media only screen and (max-width: 768px) {
+    [dir=rtl] .elay-doc-search-container .elay-search-form-1 .loading-spinner {
+      right: initial;
+      left: 57px !important; } }
+[dir=rtl] .elay-doc-search-container .elay-search-form-2 .loading-spinner {
+  left: auto;
+  right: 7px; }
+  @media only screen and (max-width: 768px) {
+    [dir=rtl] .elay-doc-search-container .elay-search-form-2 .loading-spinner {
+      right: auto;
+      left: 69px; } }
+[dir=rtl] .elay-doc-search-container .elay-search-form-3 button {
+  display: none !important; }
+[dir=rtl] .elay-doc-search-container .elay-search-form-3 .loading-spinner {
+  left: auto;
+  right: 7px; }
+  @media only screen and (max-width: 768px) {
+    [dir=rtl] .elay-doc-search-container .elay-search-form-3 .loading-spinner {
+      left: 69px;
+      right: auto; } }
+[dir=rtl] .elay-doc-search-container .elay-search-form-4 button {
+  right: auto;
+  left: -1px; }
+  @media only screen and (min-width: 768px) {
+    [dir=rtl] .elay-doc-search-container .elay-search-form-4 button {
+      border-right: none !important; } }
+[dir=rtl] .elay-doc-search-container .elay-search-form-4 .loading-spinner {
+  left: auto;
+  right: 7px; }
+  @media only screen and (max-width: 768px) {
+    [dir=rtl] .elay-doc-search-container .elay-search-form-4 .loading-spinner {
+      left: 69px;
+      right: auto; } }
+[dir=rtl] .epkb-doc-search-container .epkb-doc-search-container__title {
+  text-align: center; }
+[dir=rtl] .epkb-doc-search-container .epkb-search-form-1 button {
+  border-radius: 5px 0 0 5px;
+  left: -1px;
+  right: auto; }
+[dir=rtl] .epkb-doc-search-container .epkb-search .epkb-search-box input[type=text] {
+  margin-left: -3px;
+  margin-right: 0; }
+[dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container h1, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container h2, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container h3, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container h4, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container h5, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container h6, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container p, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container a, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container div, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container span, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container strong, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container b, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container i, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container ol, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container ul, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container li, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container section, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container nav, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container menu, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container header, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container form, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container input, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container button, [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container img {
+  text-align: right; }
+[dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container #elay_search_results {
+  text-align: right; }
+  [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container #elay_search_results ul li a .elay-article-title i {
+    left: auto;
+    right: 0; }
+  [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container #elay_search_results ul li a .elay-article-title .ep_font_icon_document {
+    left: auto;
+    right: 0; }
+  [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container #elay_search_results ul li span {
+    margin-left: auto;
+    margin-right: 24px; }
+[dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search .elay-search-box input[type=text]::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */ }
+[dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search .elay-search-box input[type=text]::-moz-placeholder {
+  /* Firefox 19+ */ }
+[dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search .elay-search-box input[type=text]:-ms-input-placeholder {
+  /* IE 10+ */ }
+[dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search .elay-search-box input[type=text]:-moz-placeholder {
+  /* Firefox 18- */ }
+[dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search-form-1 input[type=text] {
+  border-radius: 5px 5px 0px 0px !important;
+  border-right-width: 0 !important;
+  border-left-width: 0 !important; }
+[dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search-form-1 button {
+  border-radius: 5px 0 0 5px;
+  margin-left: 0px;
+  margin-right: -1px; }
+  @media only screen and (min-width: 768px) {
+    [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search-form-1 button {
+      border-right: none !important; } }
+[dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search-form-1 .loading-spinner {
+  right: 7px;
+  left: auto; }
+  @media only screen and (max-width: 768px) {
+    [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search-form-1 .loading-spinner {
+      right: initial;
+      left: 57px !important; } }
+[dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search-form-2 .loading-spinner {
+  right: 7px;
+  left: auto; }
+  @media only screen and (max-width: 768px) {
+    [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search-form-2 .loading-spinner {
+      right: auto;
+      left: 69px; } }
+[dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search-form-3 .loading-spinner {
+  left: auto;
+  right: 7px; }
+  @media only screen and (max-width: 768px) {
+    [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search-form-3 .loading-spinner {
+      left: 69px;
+      right: auto; } }
+[dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search-form-4 button {
+  left: -1px;
+  right: auto; }
+  @media only screen and (min-width: 768px) {
+    [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search-form-4 button {
+      border-right: none !important; } }
+[dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search-form-4 .loading-spinner {
+  right: 7px;
+  left: auto; }
+  @media only screen and (max-width: 768px) {
+    [dir=rtl] #eckb-article-page-container-v2 .elay-doc-search-container .elay-search-form-4 .loading-spinner {
+      right: auto;
+      left: 69px; } }

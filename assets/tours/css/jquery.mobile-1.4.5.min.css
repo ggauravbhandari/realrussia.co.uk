@@ -1,0 +1,202 @@
+/*! jQuery Mobile 1.4.5 | Git HEADhash: 68e55e7 <> 2014-10-31T17:33:30Z | (c) 2010, 2014 jQuery Foundation, Inc. | jquery.org/license */
+
+
+
+.ui-slider-input::-webkit-outer-spin-button,
+.ui-slider-input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0
+}
+
+.ui-slider-track {
+	position: relative;
+	overflow: visible;
+	border-width: 1px;
+	border-style: solid;
+	height: 15px;
+	margin: 0 15px 0 68px;
+	top: 6px
+}
+
+.ui-slider-track.ui-mini {
+	height: 12px;
+	top: 8px
+}
+
+.ui-slider-track .ui-slider-bg {
+	height: 100%
+}
+
+.ui-slider-track .ui-btn.ui-slider-handle {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	width: 28px;
+	height: 28px;
+	margin: -15px 0 0 -15px;
+	outline: 0;
+	padding: 0
+}
+
+.ui-slider-track.ui-mini .ui-slider-handle {
+	height: 14px;
+	width: 14px;
+	margin: -8px 0 0 -8px
+}
+
+
+
+
+
+
+
+.ui-slider-inneroffset {
+	margin: 0 16px;
+	position: relative;
+	z-index: 1
+}
+
+.ui-slider-switch.ui-mini .ui-slider-inneroffset {
+	margin: 0 15px 0 14px
+}
+
+.ui-slider-switch .ui-btn.ui-slider-handle {
+	margin: 1px 0 0 -15px
+}
+
+.ui-slider-switch.ui-mini .ui-slider-handle {
+	width: 25px;
+	height: 25px;
+	margin: 1px 0 0 -13px;
+	padding: 0
+}
+
+.ui-slider-handle-snapping {
+	-webkit-transition: left 70ms linear;
+	-moz-transition: left 70ms linear;
+	transition: left 70ms linear
+}
+
+a.ui-slider-handle.ui-btn.ui-shadow.ui-btn-null:focus{background:#b50116 !important;}
+
+.ui-slider-switch .ui-slider-label {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	font-size: 16px;
+	top: 0;
+	line-height: 2;
+	min-height: 100%;
+	white-space: nowrap;
+	cursor: pointer
+}
+
+.ui-slider-switch.ui-mini .ui-slider-label {
+	font-size: 14px
+}
+
+.ui-slider-switch .ui-slider-label-a {
+	z-index: 1;
+	left: 0;
+	text-indent: -1.5em
+}
+
+.ui-slider-switch .ui-slider-label-b {
+	z-index: 0;
+	right: 0;
+	text-indent: 1.5em
+}
+
+.ui-slider-track .ui-slider-bg,
+.ui-slider-switch .ui-slider-label,
+.ui-slider-switch .ui-slider-inneroffset,
+.ui-slider-handle {
+	-webkit-border-radius: inherit;
+	border-radius: inherit
+}
+
+.ui-field-contain div.ui-slider-switch {
+	margin: 0
+}
+
+
+
+.ui-slider-popup {
+	width: 64px;
+	height: 64px;
+	font-size: 36px;
+	padding-top: 14px;
+	opacity: .8
+}
+
+.ui-slider-popup {
+	position: absolute!important;
+	text-align: center;
+	z-index: 100
+}
+
+.ui-slider-track .ui-btn.ui-slider-handle {
+	font-size: .9em;
+	line-height: 30px
+}
+
+.ui-rangeslider {
+	margin: .5em 0
+}
+
+.ui-rangeslider:before,
+.ui-rangeslider:after {
+	content: "";
+	display: table
+}
+
+.ui-rangeslider:after {
+	clear: both
+}
+
+.ui-rangeslider .ui-slider-input.ui-rangeslider-last {
+	float: right
+}
+
+.ui-rangeslider .ui-rangeslider-sliders {
+	position: relative;
+	overflow: visible;
+	height: 30px;
+	margin: 0 68px
+}
+
+.ui-rangeslider .ui-rangeslider-sliders .ui-slider-track {
+	position: absolute;
+	top: 6px;
+	right: 0;
+	left: 0;
+	margin: 0
+}
+.time-deur input#price-min, .time-deur input#price-max {
+    max-width: 20px;
+    line-height: 0;
+}
+.ui-loader.ui-corner-all.ui-body-a.ui-loader-default {
+    display: none;
+}
+span.lop-ol {
+    display: none;
+}
+.list-box .checkbox input[type="checkbox"] {
+    left: 20px;
+}
+.ui-rangeslider.ui-mini .ui-rangeslider-sliders .ui-slider-track {
+	top: 8px
+}
+
+.ui-rangeslider .ui-slider-track:first-child .ui-slider-bg {
+	display: none
+}
+
+.ui-rangeslider .ui-rangeslider-sliders .ui-slider-track:first-child {
+	background-color: transparent;
+	background: 0;
+	border-width: 0;
+	height: 0
+}

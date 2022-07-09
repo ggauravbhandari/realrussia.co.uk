@@ -1,0 +1,171 @@
+/*-------POPULAR-TEXT-------*/
+
+.popular-text .flg-box {
+    width: 100%;
+    display: flex;
+    float: none;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.popular-text .flg-box p {
+    font-size: 14px;
+    font-weight: 400;
+    width: auto;
+    line-height: 18px;
+    float: none;
+}
+
+.popular-text a h4 {
+    color: #d3242b;
+}
+
+
+/*--------FEATURED-TOUR-CONTAINER-----------*/
+
+.featured-tour-container .popular-main-box {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-items: stretch;
+    float: none;
+}
+
+.featured-tour-container .popular-main-box .carousel-slider__post {
+    border: none;
+    max-width: 612px;
+    box-shadow: none;
+}
+
+.featured-tour-container .popular-main-box .popular-img-box{
+    width: 100%;
+    height: 100%;
+}
+
+.featured-tour-container .popular-main-box .popular-img-box img {
+    width: 100%;
+    border-radius: 9px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.featured-tour-container .flg-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+/*--------SEARCH-IN-BANNER-----------*/
+
+.search-in-banner .dropdown-toggle:after {
+    display: none;
+}
+
+.search-in-banner input[type="submit"] {
+    color: #ffffff;
+    border: none;
+}
+
+/*-----------CUSTOME-MONTH-CALENDER------------*/
+.custome-month-calender .pull-right,
+.custome-month-calender .pull-left{
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+}
+
+.custome-month-calender .form-to a:hover {
+    text-decoration: none;
+}
+
+/*--------CAROUSEL-----------*/
+.tour-info #myCarousel .carousel-slider__post {
+    height: auto;
+}
+
+#menu3 .carousel-slider__post-excerpt {
+    min-height: 180px !important;
+}
+
+/*-------LOADER-------*/
+.slick-loading .slick-list{
+    background:url(../img/ajax-loader.gif) center center no-repeat #fff;
+}
+
+/*----UI-DATEPICKER----*/
+
+
+.ui-datepicker-title:before {
+    background: url("/wp-content/uploads/2021/05/icon-calendar.png");
+    width: 20px;
+    height: 20px;
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+/*-----BANNER----*/
+
+p span.rsideread.bt-box-banner {
+    width: auto;
+    margin-top: -5px;
+}
+
+p span.rsideread.bt-box-banner a {
+    margin: 0;
+}
+
+/*-----VISA INFORMATION----*/
+
+.visa-steps p {
+    width: auto;
+}
+
+/*-----SEARCH--TOUR--STICKY----*/
+.sticky {
+    top: 50px;
+}
+
+/*-----------TOUR--------------*/
+
+.day-bottom-box button.readInstance {
+    margin-bottom: 25px;
+}
+
+.day-bottom-box button.readInstance {
+    color: #CD071E !important;
+    border-color: #CD071E !important;
+}
+
+.featured-tour-container .price-box a {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0;
+    line-height: 16px;
+    padding: 12px 26px;
+    background: #fff;
+    border-color: #CD071E;
+    border-width: 1px;
+    border-style: solid;
+    color: #CD071E;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.featured-tour-container .price-box p {
+    width: auto;
+}
+
+.featured-tour-container .price-box.flg-box {
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.details-banner-text .price-text .like-box p {
+    display: none;
+}

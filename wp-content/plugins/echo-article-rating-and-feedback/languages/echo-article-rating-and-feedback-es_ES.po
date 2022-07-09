@@ -1,0 +1,407 @@
+# Copyright (C) 2020 Echo Plugins
+# This file is distributed under the same license as the KB - Article Rating and Feedback plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: KB - Article Rating and Feedback 1.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/echo-article-"
+"rating-and-feedback\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-04-30T21:00:46+02:00\n"
+"PO-Revision-Date: 2020-05-02 16:22+0200\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Domain: echo-article-rating-and-feedback\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_ES\n"
+
+#. Plugin Name of the plugin
+msgid "KB - Article Rating and Feedback"
+msgstr "BC: Calificación y opiniones de un artículo"
+
+#. Plugin URI of the plugin
+msgid "https://www.echoknowledgebase.com/wordpress-add-ons/"
+msgstr "https://www.echoknowledgebase.com/wordpress-add-ons/"
+
+#. Description of the plugin
+msgid ""
+"allow reader of your articles to vote on article quality and provide "
+"feedback."
+msgstr ""
+"permite que el lector vote la calidad de un artículo y deje su opinión"
+
+#. Author of the plugin
+msgid "Echo Plugins"
+msgstr "Echo Plugins"
+
+#. Author URI of the plugin
+msgid "https://www.echoknowledgebase.com"
+msgstr "https://www.echoknowledgebase.com"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:31
+msgid "Mode"
+msgstr "Modo"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:41
+msgid "Rating Element"
+msgstr "Elemento de calificación"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:50
+msgid "Button Up "
+msgstr "Botón arriba"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:59
+msgid "Button Down"
+msgstr "Botón abajo"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:68
+msgid "Rating Element Size"
+msgstr "Tamaño del elemento de calificación"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:76
+msgid "Text 1 Star"
+msgstr "Texto 1 estrella"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:83
+msgid "Unusable Documentation"
+msgstr "Documentación inservible"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:86
+msgid "Text 2 Stars"
+msgstr "Texto 2 estrellas"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:93
+msgid "Poor Documentation"
+msgstr "Documentación escasa"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:96
+msgid "Text 3 Stars"
+msgstr "Texto 3 estrellas"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:103
+msgid "OK Documentation"
+msgstr "Documentación OK"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:106
+msgid "Text 4 Stars"
+msgstr "Texto 4 estrellas"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:113
+msgid "Good Documentation"
+msgstr "Documentación buena"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:116
+msgid "Text 5 Stars"
+msgstr "Texto 5 estrellas"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:123
+msgid "Excellent Documentation"
+msgstr "Documentación excelente"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:126
+msgid "Like/Dislike Style"
+msgstr "Estilo Me gusta/No me gusta"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:139
+msgid "Button Positive Text"
+msgstr "Texto botón positivo"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:146
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:149
+msgid "Button Negative Text"
+msgstr "Texto botón negativo"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:156
+msgid "No"
+msgstr "No"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:162
+msgid "Rating Layout"
+msgstr "Disposición de calificación"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:175
+msgid "Rating Meta Information"
+msgstr "Información meta de calificación"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:179
+msgid "Not Displayed"
+msgstr "No se muestra"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:180
+msgid "Show Above Article"
+msgstr "Mostrar arriba del artículo"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:181
+msgid "Show Below Article"
+msgstr "Mostrar debajo del artículo"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:188
+msgid "Rating Instructions"
+msgstr "Instrucciones para calificar"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:195
+msgid "Was this article helpful?"
+msgstr "¿Te ha resultado útil este artículo?"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:207
+msgid "Location of Rating"
+msgstr "Ubicación de la calificación"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:217
+msgid "Text"
+msgstr "Texto"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:226
+msgid "Stats Drop-Down"
+msgstr "Desplegable de estadísticas"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:235
+msgid "Text Font Size ( px )"
+msgstr "Tamaño fuente del texto ( px )"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:245
+msgid "Positive Confirmation"
+msgstr "Confirmación positiva"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:251
+msgid "Your vote has been submitted. Thanks!"
+msgstr "Tu voto ha sido registrado. ¡Gracias!"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:254
+msgid "Negative Confirmation"
+msgstr "Confirmación negativa"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:260
+msgid "We will use your feedback to improve this article."
+msgstr "Tu opinión nos servirá para mejorar este artículo."
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:265
+msgid "Form Title"
+msgstr "Título del formulario"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:270
+msgid "How can we improve this article?"
+msgstr "¿Cómo podemos mejorar este artículo?"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:273
+msgid "Show the Name Field?"
+msgstr "¿Mostrar campo de nombre?"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:279
+msgid "Show the Email Field?"
+msgstr "¿Mostrar campo de email?"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:285
+msgid "Description Hint for the User"
+msgstr "Sugerencia de descripción para el usuario"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:294
+msgid "Text for Support URL Link"
+msgstr "Texto para URL del enlace de apoyo"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:303
+msgid "Support Link URL"
+msgstr "URL del enlace de apoyo"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:312
+msgid "Submit Button"
+msgstr "Botón de enviar"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:321
+msgid "Submit Button Text"
+msgstr "Texto del botón de enviar"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:324
+msgid "Submit"
+msgstr "Enviar"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:327
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:340
+msgid "When Does the Feedback Form Becomes Visible?"
+msgstr "¿Cuándo aparece el formulario de reseñas?"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:331
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:344
+msgid "Never"
+msgstr "Nunca"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:332
+msgid "If user votes less than 4 stars"
+msgstr "Si el usuario vota menos de 4 estrellas"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:333
+msgid "If user votes less than 5 stars"
+msgstr "Si el usuario vota menos de 5 estrellas"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:334
+msgid "If user votes"
+msgstr "Si el usuario vota"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:335
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:346
+msgid "Always"
+msgstr "Siempre"
+
+#: includes/admin/kb-configuration/class-eprf-kb-config-specs.php:345
+msgid "If user votes down"
+msgstr "Si el usuario vota en negativo"
+
+#: includes/features/rating/class-eprf-analytics-view.php:231
+msgid "Search"
+msgstr "Buscar"
+
+#: includes/features/rating/class-eprf-analytics-view.php:253
+msgid "Top-10"
+msgstr "Los mejores 10"
+
+#: includes/features/rating/class-eprf-analytics-view.php:257
+msgid "Top-100"
+msgstr "Los mejores 100"
+
+#: includes/features/rating/class-eprf-analytics-view.php:262
+msgid "Title"
+msgstr "Título"
+
+#: includes/features/rating/class-eprf-analytics-view.php:263
+msgid "Average"
+msgstr "Media"
+
+#: includes/features/rating/class-eprf-analytics-view.php:264
+msgid "Votes"
+msgstr "Votos"
+
+#: includes/features/rating/class-eprf-analytics-view.php:287
+msgid "First refresh your page"
+msgstr "Actualiza primero tu página"
+
+#: includes/features/rating/class-eprf-analytics-view.php:292
+msgid "You do not have permission to edit this knowledge base"
+msgstr "No tienes permiso para editar esta base de conocimiento"
+
+#: includes/features/rating/class-eprf-analytics-view.php:304
+msgid "You are not logged in. Refresh your page and log in"
+msgstr "No estás conectado. Actualiza la página e inicia sesión"
+
+#: includes/features/rating/class-eprf-analytics-view.php:304
+msgid "Cannot save your changes"
+msgstr "No se han podido guardar los cambios"
+
+#: includes/features/rating/class-eprf-analytics-view.php:371
+msgctxt "used when ratinging"
+msgid "rating"
+msgstr "calificación"
+
+#: includes/features/rating/class-eprf-rating-admin-view.php:58
+#: includes/features/rating/class-eprf-rating-admin-view.php:62
+#: includes/features/rating/class-eprf-rating-admin-view.php:300
+#: js/admin-gutenberg-scripts.js:15
+msgid "Rating"
+msgstr "Calificación"
+
+#: includes/features/rating/class-eprf-rating-admin-view.php:61
+msgid "Rating Average"
+msgstr "Media de calificación"
+
+#: includes/features/rating/class-eprf-rating-admin-view.php:109
+#: includes/features/rating/class-eprf-rating-view.php:453
+msgid "Not rated"
+msgstr "Sin calificar"
+
+#: includes/features/rating/class-eprf-rating-admin-view.php:349
+msgid ""
+"Do you want to delete all rating on this article? This cannot be undone."
+msgstr ""
+"¿Quieres eliminar todas las calificaciones de este artículo? Esta "
+"acción no podrá deshacerse."
+
+#: includes/features/rating/class-eprf-rating-admin-view.php:373
+msgid "All Ratings"
+msgstr "Todas las calificaciones"
+
+#: includes/features/rating/class-eprf-rating-admin-view.php:376
+msgid "Stars Rating"
+msgstr "Calificaciones de estrella"
+
+#: includes/features/rating/class-eprf-rating-admin-view.php:389
+#: includes/features/rating/class-eprf-rating-cntrl.php:22
+#: includes/features/rating/class-eprf-rating-cntrl.php:94
+msgid "Refresh your page"
+msgstr "Actualiza la página"
+
+#: includes/features/rating/class-eprf-rating-admin-view.php:400
+msgid "Could not reset (0)"
+msgstr "No se ha podido restablecer (0)"
+
+#: includes/features/rating/class-eprf-rating-admin-view.php:406
+msgid "Could not reset (1)"
+msgstr "No se ha podido restablecer (1)"
+
+#: includes/features/rating/class-eprf-rating-admin-view.php:409
+msgid "Article ratings were reset"
+msgstr "Se han restablecido las calificaciones del artículo"
+
+#: includes/features/rating/class-eprf-rating-cntrl.php:27
+#: includes/features/rating/class-eprf-rating-cntrl.php:99
+msgid "Could not vote (0)"
+msgstr "No se ha podido votar (0)"
+
+#: includes/features/rating/class-eprf-rating-cntrl.php:32
+msgid "Could not vote (11)"
+msgstr "No se ha podido votar (11)"
+
+#: includes/features/rating/class-eprf-rating-cntrl.php:37
+#: includes/features/rating/class-eprf-rating-cntrl.php:104
+#: includes/features/rating/class-eprf-rating-cntrl.php:109
+msgid "Could not vote (1)"
+msgstr "No se ha podido votar (1)"
+
+#: includes/features/rating/class-eprf-rating-cntrl.php:46
+msgid "Could not vote (3)"
+msgstr "No se ha podido votar (3)"
+
+#: includes/features/rating/class-eprf-rating-cntrl.php:53
+msgid "Could not vote (8)"
+msgstr "No se ha podido votar (8)"
+
+#: includes/features/rating/class-eprf-rating-cntrl.php:66
+msgid "Could not record the vote (5)"
+msgstr "No se ha podido registrar el voto (5)"
+
+#: includes/features/rating/class-eprf-rating-cntrl.php:72
+msgid "Could not vote (5)"
+msgstr "No se ha podido votar (5)"
+
+#: includes/features/rating/class-eprf-rating-cntrl.php:81
+msgid "Could not vote (6)"
+msgstr "No se ha podido votar (6)"
+
+#: includes/features/rating/class-eprf-rating-cntrl.php:129
+msgid "Could not vote (2)"
+msgstr "No se ha podido votar (2)"
+
+#: includes/features/rating/class-eprf-rating-view.php:111
+#: includes/features/rating/class-eprf-rating-view.php:463
+msgid "%s out of 5 stars"
+msgstr "%s de 5 estrellas"
+
+#: includes/features/rating/class-eprf-rating-view.php:122
+#: includes/features/rating/class-eprf-rating-view.php:476
+msgid "Stars"
+msgstr "Estrellas"
+
+#: includes/features/rating/class-eprf-rating-view.php:318
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: includes/features/rating/class-eprf-rating-view.php:354
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/features/rating/class-eprf-rating-view.php:361
+msgid "Email"
+msgstr "Email"

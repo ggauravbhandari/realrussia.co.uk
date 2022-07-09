@@ -1,0 +1,353 @@
+/*
+justify-content:
+ - flex-start
+ - flex-end
+ - center
+ - space-between
+ - space-around
+ - space-evenly
+align-items:
+ - stretch
+ - flex-start
+ - flex-end
+ - center
+ - baseline
+ */
+/*
+start   - aligns items to be flush with the start edge of their cell
+end     - aligns items to be flush with the end edge of their cell
+center  - aligns items in the center of their cell
+stretch - fills the whole height of the cell (this is the default)
+ */
+.crel-screen-only {
+  position: absolute;
+  top: -10000em;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+.creative-addons .crel-loading-spinner {
+  border: 3px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  -webkit-animation: crel_spin 1s linear infinite;
+          animation: crel_spin 1s linear infinite;
+  z-index: 50; }
+
+@-webkit-keyframes crel_spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes crel_spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+.crel-image-guide__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .crel-image-guide__container .crel-image-guide__image {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    .crel-image-guide__container .crel-image-guide__image .crel-image-guide__image-spots {
+      position: relative;
+      display: inline-block; }
+      .crel-image-guide__container .crel-image-guide__image .crel-image-guide__image-spots .crel-image-guide__spot {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        position: absolute;
+        -webkit-transition: 0.2s;
+        transition: 0.2s;
+        text-align: center;
+        cursor: pointer; }
+        .crel-image-guide__container .crel-image-guide__image .crel-image-guide__image-spots .crel-image-guide__spot .crel-image-guide-icon {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-line-pack: center;
+              align-content: center;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          .crel-image-guide__container .crel-image-guide__image .crel-image-guide__image-spots .crel-image-guide__spot .crel-image-guide-icon:before {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center; }
+      .crel-image-guide__container .crel-image-guide__image .crel-image-guide__image-spots img {
+        display: block; }
+  .crel-image-guide__container .crel-image-guide__image--spotPulse .crel-image-guide__spot:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    content: "";
+    -webkit-animation: crel_Pulse 2s infinite;
+    animation: crel_Pulse 2s infinite; }
+  .crel-image-guide__container .crel-image-guide__text {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    .crel-image-guide__container .crel-image-guide__text.crel-description-top {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .crel-image-guide__container .crel-image-guide__text.crel-description-top .crel-spots__list-wrap {
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2; }
+      .crel-image-guide__container .crel-image-guide__text.crel-description-top .crel-image-guide__description {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1; }
+    .crel-image-guide__container .crel-image-guide__text .crel-spots__list-wrap {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .crel-image-guide__container .crel-image-guide__text .crel-spots__list-wrap li {
+        margin-left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .crel-image-guide__container .crel-image-guide__text .crel-spots__list-wrap li .crel-image-guide__list-icon {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          text-align: center; }
+@-webkit-keyframes crel_Pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); }
+  to {
+    -webkit-box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 25px rgba(0, 0, 0, 0); } }
+@keyframes crel_Pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1); }
+  to {
+    -webkit-box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 25px rgba(0, 0, 0, 0); } }
+  .crel-image-guide__container.crel-image-guide--lower-alpha .crel-image-guide-number-icon:before {
+    content: "" counters(hotspotListItem,".",lower-alpha); }
+  .crel-image-guide__container.crel-image-guide--upper-alpha .crel-image-guide-number-icon:before {
+    content: "" counters(hotspotListItem,".",upper-alpha); }
+  .crel-image-guide__container.crel-image-guide--decimal .crel-image-guide-number-icon:before {
+    content: "" counters(hotspotListItem,".",decimal); }
+  .crel-image-guide__container.crel-image-guide--decimal-leading-zero .crel-image-guide-number-icon:before {
+    content: "" counters(hotspotListItem,".",decimal-leading-zero); }
+  .crel-image-guide__container.crel-image-guide--lower-roman .crel-image-guide-number-icon:before {
+    content: "" counters(hotspotListItem,".",lower-roman); }
+  .crel-image-guide__container.crel-image-guide--lower-greek .crel-image-guide-number-icon:before {
+    content: "" counters(hotspotListItem,".",lower-greek); }
+  .crel-image-guide__container.crel-image-guide--armenian .crel-image-guide-number-icon:before {
+    content: "" counters(hotspotListItem,".",armenian); }
+  .crel-image-guide__container.crel-image-guide--georgian .crel-image-guide-number-icon:before {
+    content: "" counters(hotspotListItem,".",georgian); }
+  .crel-image-guide__container.crel-image-guide--lower-alpha .crel-spots__list-wrap, .crel-image-guide__container.crel-image-guide--lower-alpha .crel-image-guide__image-spots, .crel-image-guide__container.crel-image-guide--upper-alpha .crel-spots__list-wrap, .crel-image-guide__container.crel-image-guide--upper-alpha .crel-image-guide__image-spots, .crel-image-guide__container.crel-image-guide--decimal .crel-spots__list-wrap, .crel-image-guide__container.crel-image-guide--decimal .crel-image-guide__image-spots, .crel-image-guide__container.crel-image-guide--decimal-leading-zero .crel-spots__list-wrap, .crel-image-guide__container.crel-image-guide--decimal-leading-zero .crel-image-guide__image-spots, .crel-image-guide__container.crel-image-guide--lower-roman .crel-spots__list-wrap, .crel-image-guide__container.crel-image-guide--lower-roman .crel-image-guide__image-spots, .crel-image-guide__container.crel-image-guide--lower-greek .crel-spots__list-wrap, .crel-image-guide__container.crel-image-guide--lower-greek .crel-image-guide__image-spots, .crel-image-guide__container.crel-image-guide--armenian .crel-spots__list-wrap, .crel-image-guide__container.crel-image-guide--armenian .crel-image-guide__image-spots, .crel-image-guide__container.crel-image-guide--georgian .crel-spots__list-wrap, .crel-image-guide__container.crel-image-guide--georgian .crel-image-guide__image-spots {
+    counter-reset: hotspotListItem; }
+    .crel-image-guide__container.crel-image-guide--lower-alpha .crel-spots__list-wrap .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--lower-alpha .crel-image-guide__image-spots .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--upper-alpha .crel-spots__list-wrap .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--upper-alpha .crel-image-guide__image-spots .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--decimal .crel-spots__list-wrap .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--decimal .crel-image-guide__image-spots .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--decimal-leading-zero .crel-spots__list-wrap .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--decimal-leading-zero .crel-image-guide__image-spots .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--lower-roman .crel-spots__list-wrap .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--lower-roman .crel-image-guide__image-spots .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--lower-greek .crel-spots__list-wrap .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--lower-greek .crel-image-guide__image-spots .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--armenian .crel-spots__list-wrap .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--armenian .crel-image-guide__image-spots .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--georgian .crel-spots__list-wrap .crel-image-guide-number-icon, .crel-image-guide__container.crel-image-guide--georgian .crel-image-guide__image-spots .crel-image-guide-number-icon {
+      font-style: normal; }
+      .crel-image-guide__container.crel-image-guide--lower-alpha .crel-spots__list-wrap .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--lower-alpha .crel-image-guide__image-spots .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--upper-alpha .crel-spots__list-wrap .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--upper-alpha .crel-image-guide__image-spots .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--decimal .crel-spots__list-wrap .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--decimal .crel-image-guide__image-spots .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--decimal-leading-zero .crel-spots__list-wrap .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--decimal-leading-zero .crel-image-guide__image-spots .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--lower-roman .crel-spots__list-wrap .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--lower-roman .crel-image-guide__image-spots .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--lower-greek .crel-spots__list-wrap .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--lower-greek .crel-image-guide__image-spots .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--armenian .crel-spots__list-wrap .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--armenian .crel-image-guide__image-spots .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--georgian .crel-spots__list-wrap .crel-image-guide-number-icon:before, .crel-image-guide__container.crel-image-guide--georgian .crel-image-guide__image-spots .crel-image-guide-number-icon:before {
+        counter-increment: hotspotListItem; }
+  .crel-image-guide__container .crel-image-guide__list-text {
+    word-break: break-word;
+    font-size: 14px;
+    line-height: 1; }
+    .crel-image-guide__container .crel-image-guide__list-text blockquote {
+      margin: 20px 0 30px;
+      padding-left: 20px;
+      border-left: 5px solid; }
+    .crel-image-guide__container .crel-image-guide__list-text ul > li {
+      list-style-type: disc; }
+    .crel-image-guide__container .crel-image-guide__list-text ol > li {
+      list-style-type: decimal; }
+    .crel-image-guide__container .crel-image-guide__list-text ul {
+      display: block;
+      list-style-type: disc;
+      padding: 0 0 10px 10px;
+      margin: 0 0 0 20px;
+      font-size: 1em; }
+      .crel-image-guide__container .crel-image-guide__list-text ul ul, .crel-image-guide__container .crel-image-guide__list-text ul ol {
+        padding: 0 0 10px 10px; }
+      .crel-image-guide__container .crel-image-guide__list-text ul ul {
+        list-style-type: circle; }
+        .crel-image-guide__container .crel-image-guide__list-text ul ul ul {
+          list-style-type: square; }
+    .crel-image-guide__container .crel-image-guide__list-text ol {
+      display: block;
+      list-style-type: decimal;
+      padding: 0 0 10px 10px;
+      margin: 0 0 0 20px;
+      font-size: 1em; }
+      .crel-image-guide__container .crel-image-guide__list-text ol ol, .crel-image-guide__container .crel-image-guide__list-text ol ul {
+        padding: 0 0 10px 10px; }
+    .crel-image-guide__container .crel-image-guide__list-text li {
+      line-height: 1.5; }
+    .crel-image-guide__container .crel-image-guide__list-text a {
+      color: #2ea3f2;
+      text-decoration: underline; }
+    .crel-image-guide__container .crel-image-guide__list-text a:hover {
+      text-decoration: none; }
+    .crel-image-guide__container .crel-image-guide__list-text p {
+      padding-bottom: 1em;
+      line-height: 1.5; }
+    .crel-image-guide__container .crel-image-guide__list-text strong {
+      font-weight: bold; }
+    .crel-image-guide__container .crel-image-guide__list-text cite,
+    .crel-image-guide__container .crel-image-guide__list-text em,
+    .crel-image-guide__container .crel-image-guide__list-text i {
+      font-style: italic; }
+    .crel-image-guide__container .crel-image-guide__list-text pre,
+    .crel-image-guide__container .crel-image-guide__list-text code {
+      font-family: Courier New, monospace;
+      display: block;
+      padding: 9.5px;
+      margin: 0 0 10px;
+      font-size: 13px;
+      line-height: 1;
+      word-break: break-all;
+      word-wrap: break-word;
+      color: #333;
+      background-color: #f5f5f5;
+      border: 1px solid #ccc;
+      border-radius: 4px; }
+    .crel-image-guide__container .crel-image-guide__list-text ins {
+      text-decoration: none; }
+    .crel-image-guide__container .crel-image-guide__list-text sup,
+    .crel-image-guide__container .crel-image-guide__list-text sub {
+      position: relative;
+      height: 0;
+      line-height: 1;
+      vertical-align: baseline; }
+    .crel-image-guide__container .crel-image-guide__list-text sup {
+      bottom: 0.8em; }
+    .crel-image-guide__container .crel-image-guide__list-text sub {
+      top: 0.3em; }
+    .crel-image-guide__container .crel-image-guide__list-text dl {
+      margin: 0 0 1.5em 0; }
+    .crel-image-guide__container .crel-image-guide__list-text dl dt {
+      font-weight: bold; }
+    .crel-image-guide__container .crel-image-guide__list-text dd {
+      margin-left: 1.5em; }
+    .crel-image-guide__container .crel-image-guide__list-text blockquote p {
+      padding-bottom: 0; }
+    .crel-image-guide__container .crel-image-guide__list-text embed,
+    .crel-image-guide__container .crel-image-guide__list-text iframe,
+    .crel-image-guide__container .crel-image-guide__list-text object,
+    .crel-image-guide__container .crel-image-guide__list-text video {
+      max-width: 100%; }
+    .crel-image-guide__container .crel-image-guide__list-text h1,
+    .crel-image-guide__container .crel-image-guide__list-text h2,
+    .crel-image-guide__container .crel-image-guide__list-text h3,
+    .crel-image-guide__container .crel-image-guide__list-text h4,
+    .crel-image-guide__container .crel-image-guide__list-text h5,
+    .crel-image-guide__container .crel-image-guide__list-text h6 {
+      margin: 0;
+      padding-bottom: 10px;
+      font-weight: 500;
+      line-height: 1; }
+    .crel-image-guide__container .crel-image-guide__list-text h1 a,
+    .crel-image-guide__container .crel-image-guide__list-text h2 a,
+    .crel-image-guide__container .crel-image-guide__list-text h3 a,
+    .crel-image-guide__container .crel-image-guide__list-text h4 a,
+    .crel-image-guide__container .crel-image-guide__list-text h5 a,
+    .crel-image-guide__container .crel-image-guide__list-text h6 a {
+      color: inherit; }
+    .crel-image-guide__container .crel-image-guide__list-text h1 {
+      font-size: 2.5em; }
+    .crel-image-guide__container .crel-image-guide__list-text h2 {
+      font-size: 2em; }
+    .crel-image-guide__container .crel-image-guide__list-text h3 {
+      font-size: 1.75em; }
+    .crel-image-guide__container .crel-image-guide__list-text h4 {
+      font-size: 1.5em; }
+    .crel-image-guide__container .crel-image-guide__list-text h5 {
+      font-size: 1.25em; }
+    .crel-image-guide__container .crel-image-guide__list-text h6 {
+      font-size: 1em; }
+    .crel-image-guide__container .crel-image-guide__list-text input {
+      -webkit-appearance: none; }
+    .crel-image-guide__container .crel-image-guide__list-text input[type=checkbox] {
+      -webkit-appearance: checkbox; }
+    .crel-image-guide__container .crel-image-guide__list-text input[type=radio] {
+      -webkit-appearance: radio; }
+    .crel-image-guide__container .crel-image-guide__list-text input[type=text],
+    .crel-image-guide__container .crel-image-guide__list-text input[type=password],
+    .crel-image-guide__container .crel-image-guide__list-text input[type=tel],
+    .crel-image-guide__container .crel-image-guide__list-text input[type=email],
+    .crel-image-guide__container .crel-image-guide__list-text input.text,
+    .crel-image-guide__container .crel-image-guide__list-text input.title,
+    .crel-image-guide__container .crel-image-guide__list-text textarea,
+    .crel-image-guide__container .crel-image-guide__list-text select {
+      padding: 2px;
+      border: 1px solid #bbb;
+      color: #4e4e4e;
+      background-color: #fff; }
+    .crel-image-guide__container .crel-image-guide__list-text input[type=text]:focus,
+    .crel-image-guide__container .crel-image-guide__list-text input.text:focus,
+    .crel-image-guide__container .crel-image-guide__list-text input.title:focus,
+    .crel-image-guide__container .crel-image-guide__list-text textarea:focus,
+    .crel-image-guide__container .crel-image-guide__list-text select:focus {
+      border-color: #2d3940;
+      color: #3e3e3e; }
+    .crel-image-guide__container .crel-image-guide__list-text input[type=text],
+    .crel-image-guide__container .crel-image-guide__list-text input.text,
+    .crel-image-guide__container .crel-image-guide__list-text input.title,
+    .crel-image-guide__container .crel-image-guide__list-text textarea,
+    .crel-image-guide__container .crel-image-guide__list-text select {
+      margin: 0; }
+    .crel-image-guide__container .crel-image-guide__list-text textarea {
+      padding: 4px; }
+    .crel-image-guide__container .crel-image-guide__list-text table td {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin: 10px 0; }
+    .crel-image-guide__container .crel-image-guide__list-text img {
+      max-width: 100%;
+      height: auto; }
+    .crel-image-guide__container .crel-image-guide__list-text ul li, .crel-image-guide__container .crel-image-guide__list-text ol li {
+      display: list-item !important; }
+  .crel-image-guide__container .elementor-inline-editing {
+    min-height: 0; }
+    .crel-image-guide__container .elementor-inline-editing[data-pen-placeholder] {
+      width: 100%; }

@@ -1,0 +1,66 @@
+.elay-grid-category-selection-color {
+  background-color: #c6d5e7 !important; }
+
+.elay-close-notice {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  opacity: .5;
+  font-size: 1.5em; }
+  .elay-close-notice:hover {
+    opacity: 1;
+    cursor: pointer; }
+
+/* Plugin Settings Page --------------------------------------------------------------*/
+#elay-grid-layout-page-container {
+  float: left;
+  padding: 2%;
+  width: 100%;
+  overflow: auto;
+  background-color: #fff;
+  position: relative; }
+
+#elay-sidebar-layout-page-container {
+  float: left;
+  padding: 2%;
+  width: 100%;
+  overflow: auto;
+  background-color: #fff;
+  position: relative; }
+
+.elay-inactive-text {
+  color: #ff0000;
+  margin-right: 30px; }
+
+.elay-category-icon-list {
+  float: left; }
+  .elay-category-icon-list .radio-buttons-vertical {
+    height: 300px;
+    overflow-y: auto;
+    margin-top: 13px;
+    padding: 0;
+    border: solid 1px #ccc; }
+    .elay-category-icon-list .radio-buttons-vertical li {
+      padding: 11px;
+      background-color: #fbfbfb;
+      position: relative; }
+      .elay-category-icon-list .radio-buttons-vertical li input:checked + label {
+        font-weight: bold;
+        color: #86d700; }
+      .elay-category-icon-list .radio-buttons-vertical li i {
+        font-size: 28px;
+        float: left;
+        margin-right: 14px; }
+      .elay-category-icon-list .radio-buttons-vertical li .elay-label {
+        display: block;
+        float: left;
+        padding-top: 5px; }
+
+#elay-config-page__intro-settings .mce-edit-area iframe {
+  min-height: 300px; }
+#elay-config-page__intro-settings input[type="submit"] {
+  margin-top: 0;
+  background-color: #2ea3f2; }
+  #elay-config-page__intro-settings input[type="submit"]:hover {
+    background-color: #0e8bdf; }

@@ -1,0 +1,9 @@
+.datepicker-2 .ui-datepicker .ui-widget-header, .ui-datepicker .ui-datepicker-header {
+    background: inherit !important;;
+    color: inherit !important;;
+}
+
+.datepicker-2 .ui-datepicker td.ui-datepicker-current-day, .ui-datepicker td .ui-state-hover, .ui-datepicker thead {
+    background: inherit !important;
+    color: inherit !important;
+}

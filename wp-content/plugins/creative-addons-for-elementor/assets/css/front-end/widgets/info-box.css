@@ -1,0 +1,24 @@
+.crel-info-box-container .crel-info-box__body .crel-info-box__body__title {
+  margin: 0; }
+.crel-info-box-container .crel-info-box__body .crel-info-box__body__learn-more-btn a {
+  display: inline-block; }
+.crel-info-box-container.crel-info-box-icon--top .crel-info-box__icon {
+  display: flex;
+  width: 100% !important;
+  height: auto !important;
+  transition: .3s;
+  align-items: center;
+  justify-content: center; }
+.crel-info-box-container.crel-info-box-icon--top .crel-info-box__body {
+  text-align: center; }
+.crel-info-box-container.crel-info-box-icon--left {
+  position: relative;
+  z-index: 0;
+  display: flex; }
+.crel-info-box-container.crel-info-box-icon--right {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: row-reverse; }
+  .crel-info-box-container.crel-info-box-icon--right .crel-info-box__body {
+    text-align: right; }
